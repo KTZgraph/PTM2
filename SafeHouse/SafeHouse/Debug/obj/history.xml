@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse\SafeHouse\cmsis_lib\include -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse\SafeHouse\cmsis_lib -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse\SafeHouse -I..\..\..\..\..\Users\Nika\Desktop\Plytka -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse\SafeHouse\cmsis_boot -I..\..\..\..\..\Users\Nika\Desktop\Plytka\STMsafeHouse\SafeHouse\cmsis">
+      <target file="stm32f4xx_gpio.o" lastModified="155271f5e3a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="155271f617a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="155271f5ec6">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="md.o" lastModified="155271f5c64">
+         <source file="..\..\..\md.c" lastModified="155271f4614"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="155271f5d16">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="155271f5ce9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="155271f6062">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="155271f5b89">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="keypad.o" lastModified="155271f5e8a">
+         <source file="..\..\..\keypad.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="lcd.o" lastModified="155271f6024">
+         <source file="..\..\..\lcd.c" lastModified="15526c813dc"/>
+      </target>
+      <target file="main.o" lastModified="155271f5d57">
+         <source file="..\..\..\main.c" lastModified="15525b70a5a"/>
+      </target>
+      <target file="wifi.o" lastModified="155271f60da">
+         <source file="..\..\..\wifi.c" lastModified="15526d0c21f"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="155271f5def">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1552ff48d20"/>
+      </target>
+      <target file="misc.o" lastModified="155271f609e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1552ff48d20"/>
+      </target>
+   </processor>
+</history>
